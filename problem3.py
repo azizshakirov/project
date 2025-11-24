@@ -11,7 +11,7 @@ def format_date(date_str: str) -> str:
         'sentyabr': '09',
         'oktyabr': '10',
         'noyabr': '11', 
-        'dekabr': '12',
+        'dekabr': '12'
     }
 
     day, month, year = date_str.strip().split()
