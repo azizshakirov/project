@@ -17,7 +17,7 @@ def format_date(date_str: str) -> str:
     day, month, year = date_str.strip().split()
     month = months[month]
     year = year[-2:]
-    return f"{day}.{month}.{year}"
+    return f"{day}-{month}-{year}"
 
 
 print(format_date("24 mart 2025"))
